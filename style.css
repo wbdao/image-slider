@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  sans-serif;
+}
+.slider{
+    width: 800px;
+    margin: auto;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: -1px 3px 10px 12px #eee;
+}
+.img-root{
+    display: flex;
+    width: 400%;
+    transform: translateX(calc(-25%*1));
+}
+.img-slider{
+   height: 100%;
+   width: 100%;
+    overflow: hidden;
+}
+.img-slider img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
